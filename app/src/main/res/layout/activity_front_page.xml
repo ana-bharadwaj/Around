@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontPage">
+    <Button
+        android:id="@+id/ibSignout"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="27dp"
+        android:text="Signout"
+        android:textSize="7dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/dark_red"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ivBackgroundFrontPage"
+        android:background="@drawable/backgroundimage" />
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Around"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="65dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:text="Pocket tour guide"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_red"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/iBCurrenyConvertorFp"
+        android:layout_width="88dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/roundedcorner"
+        android:src="@drawable/currency_svgrepo_com" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="Currenxy conversion"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/ibWeatherFrontPage"
+        android:layout_width="88dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/weather_svgrepo_com"
+        android:background="@drawable/roundedcorner"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="330dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <ImageButton
+        android:id="@+id/iBFoodHutnerFp"
+        android:layout_width="88dp"
+        android:layout_height="109dp"
+        android:src="@drawable/search_svgrepo_com"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/roundedcorner"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:text="search around"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <ImageButton
+        android:id="@+id/ibTranslatorFp"
+        android:layout_width="88dp"
+        android:layout_height="109dp"
+android:src="@drawable/translate_svgrepo_com"
+        android:background="@drawable/roundedcorner"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="400dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translator"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="510dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

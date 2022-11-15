@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchLocation"
+    android:background="#d5c7ba">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:background="#bc724f"
+        android:text="find"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#263238"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/EtdestinationEntry"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:hint="Enter destination"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_toRightOf="@+id/EtdestinationEntry"
+        android:id="@+id/EtfromEntry"
+        android:layout_width="210dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:hint="Enter from location"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/iBGetDetails"
+        android:layout_width="151dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/dark_red"
+        app:srcCompat="@drawable/maps_svgrepo_com"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/iBhotelFind"
+        android:layout_width="151dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_toRightOf="@+id/iBGetDetails"
+        android:background="@drawable/roundedcorner"
+
+        android:backgroundTint="@color/baby_blue"
+        app:srcCompat="@drawable/hotel_svgrepo_com"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/iBGetTravelStuff"
+        android:layout_width="151dp"
+        android:layout_height="154dp"
+        android:layout_below="@+id/iBGetDetails"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#ffffcc"
+        app:srcCompat="@drawable/travel_svgrepo_com"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/IbRestaurantsFind"
+        android:layout_width="151dp"
+        android:layout_height="154dp"
+        android:layout_below="@+id/iBhotelFind"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/iBGetDetails"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="#66ff66"
+        android:src="@drawable/restaurant_svgrepo_com"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

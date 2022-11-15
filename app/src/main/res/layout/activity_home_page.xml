@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".HomePage">
+
+   <EditText
+       android:id="@+id/eTSearchHomePage"
+       android:layout_width="315dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="-1dp"
+       android:layout_marginRight="8dp"
+       android:layout_toLeftOf="@+id/btnSearchHomePage"
+       android:hint="type name"
+       android:minHeight="48dp"
+       android:text="restaurant mcdonalds"
+       android:textColor="@android:color/white"
+       android:textColorHint="@android:color/white" />
+
+   <Button
+       android:id="@+id/btnSearchHomePage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:text="Search"/>
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/eTSearchHomePage"
+       android:scrollbars="vertical" />
+</RelativeLayout>
